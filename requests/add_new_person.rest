@@ -25,3 +25,23 @@ Content-Type: application/json
   "number": "050-1238888"
 }
 
+###
+POST http://localhost:3001/api/persons/
+Content-Type: application/json
+
+{
+  "name": "ly",
+  "number": "044-1234567"
+}
+
+###
+
+POST http://localhost:3001/api/persons/
+Content-Type: application/json
+
+{
+  "name": "Wrong Numberformat",
+  "number": "1234556"
+}
+
+
